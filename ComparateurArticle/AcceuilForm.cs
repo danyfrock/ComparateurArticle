@@ -36,7 +36,7 @@ namespace ComparateurArticle
             // Créer une boîte de dialogue de fichier
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
-                // Filtrer pour les fichiers Excel uniquement
+                // Filtrer pour les fichiers Excel uniquement.
                 Filter = "Excel Files|*.xls;*.xlsx;*.xlsm",
                 Title = "Sélectionner un fichier Excel"
             };
